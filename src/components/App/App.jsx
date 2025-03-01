@@ -41,7 +41,9 @@ const App = () => {
 
       {totalFeedback > 0 ? (
         <Feedback
-          feedback={feedback}
+          good={feedback.good}
+          neutral={feedback.neutral}
+          bad={feedback.bad}
           totalFeedback={totalFeedback}
           positiveFeedback={positiveFeedback}
         />

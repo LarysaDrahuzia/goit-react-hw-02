@@ -10,8 +10,9 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   line-height: 1.5;
+  font-size: 24px;
   background-color: lightsteelblue;
 }
 
