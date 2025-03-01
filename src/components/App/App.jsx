@@ -14,7 +14,7 @@ const App = () => {
   });
 
   useEffect(() => {
-    localStorage.setItem('feedback-key', JSON.stringify(feedback));
+    localStorage.setItem('feedback', JSON.stringify(feedback));
   }, [feedback]);
 
   const updateFeedback = feedbackType => {
